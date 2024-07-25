@@ -1,0 +1,32 @@
+.ticket-container {
+    position: relative;
+    border-radius: 8px;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-half-circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 2px solid #d3d3d3;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .ticket-half-circle.left-0 {
+    left: -12px;
+  }
+  
+  .ticket-half-circle.right-0 {
+    right: -12px;
+  }
+  
+  .ticket-border-dotted {
+    border-bottom: 2px dashed #d3d3d3;
+    margin: 1rem 0;
+  }
+  

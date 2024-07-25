@@ -1,0 +1,7 @@
+/* public/fonts/fonts.css */
+@font-face {
+  font-family: "Lufga";
+  src: url("/fonts/LufgaRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

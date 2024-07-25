@@ -1,0 +1,43 @@
+@import url("/fonts/fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Lufga", sans-serif;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Slide-out animation */
+@keyframes slideOut {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+/* Class for showing the menu */
+.menu-open {
+  animation: slideIn 0.3s forwards;
+}
+
+/* Class for hiding the menu */
+.menu-close {
+  animation: slideOut 0.3s forwards;
+}
